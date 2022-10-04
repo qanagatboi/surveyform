@@ -1,0 +1,66 @@
+<!Doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="styles.css" rel="stylesheet">
+<title>Survey Form</title>
+</head>
+<body>
+<header>
+<h1 id="title">Raiymbek`s Survey Form</h1>
+<hr>
+<p id="description">Thank you for visiting <em><a href="https://www.wikipedia.com">Surveyform.com</a></em></p>
+</header>
+<main>
+  <form id="survey-form">
+    <div class="the-form">
+    <label id="name-label" for="name">Name</label>
+    <input required id="name" type="text" placeholder="Enter your name" name="name"></div>
+    <div class="the-form">
+    <label for="email" id="email-label">Email</label>
+    <input required id="email" type="email" placeholder="Enter your email" name="email"></div>
+    <div class="the-form">
+    <label for="number" id="number-label">Age</label>
+    <input id="number" type="number" name="number" min="18" max="100" placeholder="18"></div>
+    <div class="the-form">
+      <p>What products you prefer?</p>
+    <select id="dropdown">
+      <option>Select below</option>
+      <option>Cereals</option>
+      <option>Meat</option>
+      <option>Dairy products</option>
+    </select></div>
+    <div class="the-form">
+      <p>How many times a week do you train?</p>
+      <input class="input1" id="radio1" type="radio" name="choose" value="0">
+      <label for="radio1">0</label>
+      <input class="input1" id="radio2" type="radio" name="choose" value="1-2">
+      <label for="radio2">1-2</label>
+      <input class="input1" id="radio3" type="radio" name="choose" value="3-5">
+      <label for="radio3">3-5</label>
+      <input class="input1" id="radio4" type="radio" name="choose" value="5-7">
+      <label for="radio4">5-7</label>
+    </div>
+    <div class="the-form">
+      <p>Do you have any hobbies(multiple options available)</p>
+      <input class="input2" id="books" type="checkbox" name="hobbies" value="books">
+      <label for="books">Books</label>
+      <input class="input2" id="gaming" type="checkbox" name="hobbies" value="gaming">
+      <label for="gaming">Gaming</label>
+      <input class="input2" id="tv" type="checkbox" name="hobbies" value="tv">
+      <label for="tv">TV Shows</label>
+      <input class="input2" id="coding" type="checkbox" name="hobbies" value="coding">
+      <label for="coding">Coding</label>
+      </div>
+      <div class="the-form">
+      <p>Any suggestions on site?</p>
+        <textarea rows="10" cols="18" placeholder="I guess..." name="textarea"></textarea>
+      <div>
+      <div class="the-form">
+      <button id="submit">Submit</button>
+      <div>
+  </form>
+</main>
+</body>
+</html>
